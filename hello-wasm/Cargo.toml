@@ -1,0 +1,11 @@
+[package]
+name = "hello-wasm"
+version = "0.1.0"
+edition = "2021"
+authors = ["3050540005@qq.com"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"

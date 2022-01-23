@@ -1,0 +1,12 @@
+[package]
+name = "guide-com"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+<<<<<<< HEAD
+=======
+num = "0.2.0"
+>>>>>>> 30b1db4 (feat: change file path)
