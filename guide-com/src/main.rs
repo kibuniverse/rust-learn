@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-use std::convert::{From, Into};
->>>>>>> 30b1db4 (feat: change file path)
 use std::io::Write;
 use std::str::FromStr;
 
@@ -23,14 +19,10 @@ fn main() {
     println!("The greatest common divisor of {:?} is {}", numbers, d);
 }
 
-<<<<<<< HEAD
-fn gcd(mut n: u64, mut m: u64) -> u64 {
-=======
 fn gcd<T>(mut n: T, mut m: T) -> T
 where
     T: std::ops::Rem<Output = T> + std::cmp::PartialOrd + Ord + Into<usize> + From<usize>,
 {
->>>>>>> 30b1db4 (feat: change file path)
     assert!(n != 0 && m != 0);
     while m != 0 {
         if m < n {
